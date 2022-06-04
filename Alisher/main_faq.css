@@ -1,0 +1,452 @@
+html {
+    height: 100%;
+}
+
+.fig {
+    text-align: center;
+    border: 3px solid #000000;
+}
+
+.pic {
+    text-align: center;
+}
+
+.emgtable {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные рамки */
+   }
+   th, td {
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 4px; /* Поля в ячейках */
+   }
+   tr:hover { 
+    background: #d5e6a2; /* Цвет фона */
+   }
+
+.head_name {
+    font-size: 25px;
+    color: rgb(28, 28, 173);
+    font-weight: bold;
+}
+
+
+/* The style for the header*/
+
+header .scammers {
+    padding: 10px;
+    background: #fd5f60;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+header .scammers a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+header .scammers a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.scammers a {
+    display: inline-block
+}
+
+p {
+    margin: 20;
+}
+
+#nav_menu ul {
+    background-color: #fd5f60;
+    margin: 0;
+    padding: 0;
+}
+
+#nav_menu ul li {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    border: solid #878382;
+    border-width: 0 0 1px 0;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+
+#nav_menu ul ul {
+    display: none;
+    top: 100%;
+}
+
+#nav_menu ul ul li {
+    float: none;
+    display: block;
+}
+
+#nav_menu ul li a:hover {
+    background-color: rgb(177, 165, 165);
+    display: block;
+}
+
+#nav_menu ul li:hover>ul {
+    display: block;
+}
+
+#nav_menu>ul ul::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main {
+    background-color: rgb(247, 247, 247);
+    margin: 20px;
+    padding-bottom: 0;
+}
+
+#sec1 {
+    grid-row: 1;
+    grid-column: 1;
+    padding: 0 10% 0 10%;
+}
+
+.column {
+    -webkit-column-width: 200px;
+    -moz-column-width: 200px;
+    column-width: 200px;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+    -webkit-column-rule: 1px solid #ccc;
+    -moz-column-rule: 1px solid #ccc;
+    column-rule: 1px solid #ccc;
+}
+
+.rightpic {
+    float: right;
+    /* Выравнивание по правому краю */
+    margin: 4%;
+    /* Отступы вокруг фотографии 15 15 15px 15px */
+    width: 500px;
+    height: 608px;
+    border: 3px solid #FFFFFF;
+}
+
+.box {
+    font-size: 20px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+.head_name {
+    font-size: 25px;
+    color: rgb(28, 28, 173);
+    font-weight: bold;
+}
+
+.conteiner {
+    height: 25px;
+    width: 250px;
+    margin: 10px 0 10px 0;
+}
+
+#f_name {
+    margin-left: 248px;
+}
+
+#l_name {
+    margin-left: 250px;
+}
+
+#ph_num {
+    margin-left: 220px;
+}
+
+#e_mail {
+    margin-left: 280px;
+}
+
+.lang {
+    width: 120px;
+    height: 30px;
+    margin: 10px 0 10px 0;
+}
+
+#submit {
+    width: 150px;
+    height: 25px;
+    margin: 10px 0 10px 300px;
+    background-color: #d4d0d0;
+}
+
+#reset {
+    width: 150px;
+    height: 25px;
+    margin: 10px 0 10px 20px;
+    background-color: #d4d0d0;
+}
+
+input:required,
+input[required] {
+    border: 1px solid red;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+    background-color: rgb(247, 247, 247);
+}
+
+#flags {
+    display: block;
+    float: left;
+}
+
+#demo-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: rgb(112, 110, 110);
+    flex-basis: 25%;
+}
+
+#demo-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#demo-nav h3 a:hover {
+    display: block;
+    color: beige;
+}
+
+#demo-nav h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #d4d0d0;
+    padding: 25px 0 25px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: medium;
+}
+
+@media only screen and (min-width: 760px) {
+    html {
+        height: 100%;
+    }
+    body {
+        margin: 10px auto 0 auto;
+        padding: 0 auto 0 auto;
+        height: 100%;
+        max-width: 90%;
+        min-width: 760px;
+        font-size: 16px;
+    }
+    br {
+        clear: both;
+    }
+    header .scammers {
+        padding: 10px;
+        background: #fd5f60;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+    }
+    header .scammers a {
+        text-decoration: none;
+        color: inherit;
+        font-weight: bold;
+    }
+    header .scammers a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    .scammers a {
+        display: inline-block
+    }
+    p {
+        margin: 20;
+    }
+    #nav_menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        background-color: #fd5f60;
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    #nav_menu ul li {
+        text-decoration: none;
+        text-align: center;
+        font-size: 23px;
+        border: solid #878382;
+        border-width: 0 0 1px 0;
+        flex-basis: 20%;
+    }
+    #nav_menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        padding: 1em 0;
+        flex-basis: 20%;
+    }
+    #nav_menu ul ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 20%;
+    }
+    #nav_menu ul ul li {
+        float: none;
+        display: block;
+    }
+    #nav_menu ul li a:hover {
+        background-color: #878382;
+        display: block;
+    }
+    #nav_menu ul li:hover>ul {
+        display: block;
+    }
+    #nav_menu>ul ul::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    main {
+        background-color: rgb(247, 247, 247);
+        margin: 20px;
+        padding-bottom: 0;
+    }
+    #sec1 {
+        grid-row: 1;
+        grid-column: 1;
+        margin: 0 10% 0 5%;
+    }
+    /*#sec2 {
+     grid-column: 2;
+     grid-row: 1;
+     align-items: center;
+     font-size: 10px;
+     }
+ 
+     #p_sec2 {
+     margin-top: 100px;
+     max-width: 200px;
+     font-size: 25px;
+     margin: 95px 0 60px 80px;
+     padding: 20px;
+     line-height: 1.5;
+     border: 1px solid black;
+     }
+ 
+     #can_visa {
+     margin: auto;
+         
+     }*/
+    main h1 {
+        text-align: center;
+    }
+    .box {
+        font-size: 20px;
+        border: 1px solid gray;
+        margin-bottom: 10px;
+    }
+    .head_name {
+        font-size: 25px;
+        color: rgb(28, 28, 173);
+        font-weight: bold;
+    }
+    .conteiner {
+        height: 25px;
+        width: 250px;
+        margin: 10px 0 10px 0;
+    }
+    #education {
+        margin-left: 253px;
+    }
+    #f_name {
+        margin-left: 248px;
+    }
+    #l_name {
+        margin-left: 250px;
+    }
+    #ph_num {
+        margin-left: 220px;
+    }
+    #e_mail {
+        margin-left: 280px;
+    }
+    #submit {
+        width: 150px;
+        height: 25px;
+        margin: 10px 0 10px 300px;
+        background-color: #d4d0d0;
+    }
+    #reset {
+        width: 150px;
+        height: 25px;
+        margin: 10px 0 10px 20px;
+        background-color: #d4d0d0;
+    }
+    input:required,
+    input[required] {
+        border: 1px solid red;
+    }
+    textarea {
+        width: 500px;
+        height: 100px;
+        background-color: rgb(247, 247, 247);
+    }
+    #flags {
+        float: right;
+    }
+    #demo-nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        background-color: rgb(112, 110, 110);
+        flex-basis: 25%;
+    }
+    #demo-nav a {
+        text-decoration: none;
+        color: black;
+    }
+    #demo-nav h3 a:hover {
+        display: block;
+        color: beige;
+    }
+    #demo-nav h3 {
+        padding: 10px;
+        text-align: center;
+    }
+    footer {
+        background: #d4d0d0;
+        padding: 25px 0 25px;
+        text-align: center;
+    }
+    .p2 {
+        font-size: medium;
+    }
+}

@@ -1,0 +1,457 @@
+html {
+height: 100%;
+ }
+ 
+/* The style for the header*/
+header .scammers {
+padding:10px;
+margin-bottom: 10px;
+background:#fd5f60;
+color:#fff;
+text-align:center;
+line-height:10px;
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10px;
+}
+  
+header .scammers a {
+text-decoration:none;
+color:inherit;
+font-weight: bolder;
+}
+  
+header .scammers a:hover {
+text-decoration:none;
+color:black;
+}
+  
+.scammers1 a {
+display:inline-block;
+font-size: 13px;
+color: black;
+text-decoration: none;
+}
+  
+p { 
+margin: 20;
+}
+
+#nav_menu {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 0;
+padding-bottom: 0;
+list-style: none;
+font-size: 20px;
+}
+
+#nav_menu ul {
+background-color: #fd5f60;
+padding: 0;
+position: relative;
+list-style: none;
+}
+ 
+#nav_menu ul li {
+text-decoration: none;
+text-align: center;
+border: solid #878382;
+border-width: 0 0 1px 0;
+display: block;
+z-index: 10000
+}
+  
+#nav_menu ul li a {
+text-decoration: none;
+color: white;
+background-color: #fd5f60;
+font-weight: bolder;
+text-align: center;
+display: block;
+font-size: 20px;
+padding: 5px 0; 
+}
+  
+#nav_menu ul ul {
+display: none;
+top: 100%;
+position: absolute;
+}
+
+#nav_menu ul ul li {
+float: none;
+position: relative;
+}
+  
+#nav_menu ul li a:hover {
+background: #a1a1a1;
+display: block;
+color: white;
+}
+
+#nav_menu ul ul li ul {
+position: absolute;
+left: 100%;            /* Position the second submenu at the right side of the li element */ 
+top: 0;                /* Position the second submenu at the top of the li element */
+}
+
+#nav_menu ul li:hover > ul {
+display: block;
+}
+  
+#nav_menu > ul ul::after {
+content: "";
+display: block;
+}
+  
+main {
+text-align: left;
+background-position: top center;
+padding-left: 25px;
+}
+                 
+aside {
+width: 700px;
+padding: 1em;
+border: 1px solid white;
+position: absolute;
+right: 15px;
+top: 326px; 
+}
+  
+.img_header {
+width: 100%;
+padding-right: 0;
+}
+     
+
+/* The style for the main division*/
+.img_main {
+max-width: 135px;
+max-height: 135px;
+}
+     
+h2 {
+color: red;
+font-size: xx-large;
+font: bold;
+}
+  
+.RCCRC {
+max-width: 60%;
+height: auto;
+border: 2px solid rgb(192, 183, 183);
+
+}
+  
+/*The style of division with maneger photos in the main*/
+  
+#photo {
+text-align: center;
+margin: 10px 20px 10px 0;
+padding: 0 10px 0;
+}
+  
+.manager-photo {
+clear: both;
+clip-path: circle(45% at center center);
+}
+  
+  
+.manager1 {
+padding: 0 20px;
+  
+}
+  
+.manager2 {
+padding: 0 20px;
+}
+  
+.manager3 {
+padding: 0 20px;
+}
+  
+.manager4 {
+padding: 0 20px;
+}
+  
+/*The style for footer*/
+  
+footer {
+background: #d4d0d0;
+padding: 25px 0 25px;
+text-align: center;
+}
+              
+.p2 {
+font-size: medium;
+} 
+  
+/*The style "flexbox" for footer navigation */
+  
+#demo-nav {
+list-style-type: none;
+background-color: rgb(112, 110, 110);
+}
+  
+#demo-nav h3 {
+
+text-align: center;
+}  
+  
+#demo-nav a {
+text-decoration: none;
+color: black;
+}
+  
+#demo-nav h3 a:hover {
+display: block;
+color: beige;
+}
+
+#top {
+text-align:center;
+font-size: 18px;
+}
+  
+#top a{
+text-decoration: none;
+ 
+}
+  
+#top a:hover {
+color:red;
+}
+  
+@media only screen and (min-width: 760px) {
+
+body {
+margin: 0px auto 0 auto;
+padding: 0 auto 0 auto;
+position: relative;
+max-width: 90%;
+min-width: 760px;
+}
+
+.scammers1 a {
+display:inline-block;
+font-size: 13px;
+text-decoration: none;
+}
+
+main {
+width: auto;
+position: relative;
+text-align: left;
+padding-left: 25px;
+line-height: 1.5;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+}
+
+#nav_menu {
+height: 30px;
+margin: 0;
+padding-top: 0;
+padding-bottom: 23px;
+list-style: none;
+margin-top: 10px;
+}
+
+
+#nav_menu ul {
+position: relative; 
+list-style: none;
+display: flex;
+justify-content: space-around;
+background-color:  #fd5f60;
+position: relative;
+margin: 0;
+padding: 0;
+line-height: 12px;
+text-align: center;
+}
+  
+#nav_menu ul li {
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+border: solid #878382;
+border-width: 0 0 1px 0;
+flex-basis: 20%;
+}
+      
+#nav_menu ul li a {
+text-decoration: none;
+color: white;
+font-weight: bolder;
+text-align: center;
+padding: 1em 0;
+font-size: 20px;
+}
+      
+#nav_menu ul ul {
+display: none;
+position: absolute;
+top: 100%;
+width: 20%;
+line-height: 1;
+}
+      
+#nav_menu ul ul li {
+float: none;
+display: block;
+}
+      
+#nav_menu ul li a:hover {
+background: #a1a1a1;
+display: block;
+}
+       
+#nav_menu ul li:hover > ul {
+display: block;
+}
+      
+#nav_menu > ul ul::after {
+content: "";
+display: block;
+clear: both; 
+}
+
+h1 {
+text-align: center;
+background-color:  #f2f8f8;
+margin:0;
+padding:0;
+}
+
+#flags {
+float: right;
+text-decoration: none;
+}
+          
+aside {
+width: 700px;
+padding: 1em;
+border: 1px solid white;
+position: absolute;
+right: 15px;
+top: 326px; 
+}
+
+
+.img_header {
+width: 100%;
+height: 180px;
+padding-right: 0;
+}
+ 
+/* The style for the main division*/
+               
+.img_main {
+float: left;
+max-width: 135px;
+max-height: 135px;
+padding-right: 40px;
+}
+                
+.RCCRC {
+max-width: 500px;
+min-width: 150px;
+height: auto;
+border: 2px solid rgb(192, 183, 183);
+float: right;
+margin: 0 30px 0 0;
+}
+                    
+#demo-nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+list-style-type: none;
+background-color: rgb(112, 110, 110);
+flex-basis: 25%;
+}
+                          
+#demo-nav h3 {
+padding: 10px;
+text-align: center;
+}
+  
+.myDiv {
+width: 600px;
+height: 200px;
+overflow: auto;
+transition: all 2s;
+}
+    
+.myDiv:hover {
+background-color: rgb(238, 232, 229);
+width: 800px;
+height: 200px;
+padding: 30px;
+border-radius: 50px;
+font-size: 25px;
+color: rgb(46, 34, 34);
+}
+
+.myDiv1 {
+width: 800px;
+height: 200px;
+overflow: auto;
+transition: all 2s;
+}
+        
+.myDiv1:hover {
+background-color: rgb(238, 232, 229);
+width: 1000px;
+height: 300px;
+padding: 30px;
+border-radius: 50px;
+font-size: 25px;
+color: rgb(46, 34, 34);
+}
+}
+
+@media only screen and (min-width: 1060px) {
+
+#photo {
+display: grid;
+grid-template: 1fr / repeat(4, auto);
+justify-content: space-around;
+grid-template-areas: 
+"manager1 manager2 manager3 manager4";
+text-align: center;
+margin: 10px 20px 10px 0;
+padding: 0 10px 0;
+}
+        
+.manager-photo {
+clear: both;
+clip-path: circle(45% at center center);
+}
+        
+.manager1 {
+padding: 0 20px;
+}   
+         
+.manager2 {
+padding: 0 20px;
+}
+        
+.manager3 {
+padding: 0 20px;
+}
+        
+.manager4 {
+padding: 0 20px;
+}
+
+
+h1 {
+  text-align: center;
+  background-color:  #f2f8f8;
+  margin:0;
+  padding:0;
+}
+
+}    

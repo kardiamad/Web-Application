@@ -1,0 +1,568 @@
+html {
+height: 100%;
+}
+      
+ /* The style for the header*/
+ header .scammers {
+padding:10px;
+margin-bottom: 10px;
+background:#fd5f60;
+color:#fff;
+text-align:center;
+line-height:10px;
+font-family:  Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10px;
+}
+
+.scammers1 a {
+display:inline-block;
+font-size: 13px;
+color: black;
+text-decoration: none;
+}
+      
+header .scammers a {
+text-decoration:none;
+color:inherit;
+font-weight: bold;
+}
+      
+header .scammers a:hover {
+text-decoration:none;
+color:black;
+}
+      
+.scammers a {
+display:inline-block}
+      
+      
+p { 
+margin: 20;
+}
+     
+#nav_menu {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding-top: 0;
+padding-bottom: 0;
+list-style: none;
+font-size: 20px;
+}
+        
+#nav_menu ul {
+background-color: #fd5f60;
+padding: 0;
+position: relative;
+list-style: none;
+}
+         
+#nav_menu ul li {
+text-decoration: none;
+text-align: center;
+border: solid #878382;
+border-width: 0 0 1px 0;
+display: block;
+z-index: 10000
+}
+          
+#nav_menu ul li a {
+text-decoration: none;
+color: white;
+background-color: #fd5f60;
+font-weight: bolder;
+text-align: center;
+display: block;
+font-size: 20px;
+padding: 5px 0; 
+}
+          
+#nav_menu ul ul {
+display: none;
+top: 100%;
+position: absolute;
+}
+        
+#nav_menu ul ul li {
+float: none;
+position: relative;
+}
+          
+#nav_menu ul li a:hover {
+background: #a1a1a1;
+display: block;
+color: white;
+}
+        
+#nav_menu ul ul li ul {
+position: absolute;
+left: 100%;            /* Position the second submenu at the right side of the li element */ 
+top: 0;                /* Position the second submenu at the top of the li element */
+}
+        
+#nav_menu ul li:hover > ul {
+display: block;
+}
+          
+#nav_menu > ul ul::after {
+content: "";
+display: block;
+}
+            
+main {
+background-color: rgb(247, 247, 247);
+margin: 20px;
+padding-bottom: 0;
+}   
+            
+#sec1 {
+grid-row: 1;
+grid-column: 1;
+padding: 0 10% 0 10%;
+}
+           
+ 
+main h1 {
+text-align: center;
+}
+
+.box {
+font-size: 20px;
+border: 1px solid gray;
+margin-bottom: 10px;
+}
+
+.head_name {
+font-size: 25px;
+color: rgb(28, 28, 173);
+font-weight: bold;
+}
+    
+.conteiner {
+height: 25px;
+width: 250px;
+margin: 10px 0 10px 0;
+}
+
+#education {
+margin-left: 253px;
+}
+     
+ #f_name {
+margin-left: 248px;
+ }
+ #l_name {
+    margin-left: 250px;
+ }
+
+#ph_num {
+    margin-left: 220px;
+}
+
+#e_mail {
+    margin-left: 280px;
+}
+
+#about_you {
+    margin-top: 20px;
+}
+
+#citizen {
+    margin-left: 242px;
+}
+#state {
+    margin-left: 192px;
+}
+#age {
+    margin-left: 231px;
+}
+
+.educ {
+width: 257px;
+height: 30px;
+margin: 10px 0 10px 0;
+}
+
+#experience {
+margin-left: 55px;
+}
+
+#en_language {
+margin-left: 20px;
+}
+
+#fr_language {
+margin-left: 24px;
+}
+
+.lang {
+width: 120px;
+height: 30px;
+margin: 10px 0 10px 0;
+}
+
+#status {
+margin-left: 220px;
+    
+} 
+.status {
+height: 30px;
+width: 257px;
+margin: 10px 0 10px 0;
+}
+
+#children {
+margin-left: 257px;
+}
+
+#stat {
+height: 30px;
+margin: 10px 0 10px 0;
+}
+
+#submit {
+width: 150px;
+height: 25px;
+margin:  10px 0 10px  300px;
+background-color: #d4d0d0;
+}
+
+#reset {
+width: 150px;
+height: 25px;
+margin: 10px 0 10px 20px;
+background-color: #d4d0d0;
+}
+
+
+input:required, input[required] {
+border: 1px solid red;
+}
+
+textarea {
+width: 500px;
+height: 100px;
+background-color: rgb(247, 247, 247);
+}
+#flags {
+display: block;
+float: left;
+}
+#demo-nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+list-style-type: none;
+background-color: rgb(112, 110, 110);
+flex-basis: 25%;
+}
+             
+#demo-nav a {
+text-decoration: none;
+color: black;
+}
+         
+#demo-nav h3 a:hover {
+display: block;
+color: beige;
+ }
+                       
+#demo-nav h3 {
+padding: 10px;
+text-align: center;
+}  
+
+footer {
+background: #d4d0d0;
+padding: 25px 0 25px;
+text-align: center;
+}
+
+.p2 {
+font-size: medium;
+} 
+
+@media only screen and (min-width: 760px)
+ {
+html {
+height: 100%;
+}
+
+   
+body {
+margin: 0px auto 0 auto;
+padding: 0 auto 0 auto;
+height: 100%;
+max-width: 90%;
+min-width: 760px;
+font-size: 16px;
+}
+
+.scammers1 a {
+display:inline-block;
+font-size: 13px;
+text-decoration: none;
+}
+
+br {
+clear: both;
+}
+ 
+header .scammers a {
+text-decoration:none;
+color:inherit;
+font-weight: bold;
+}
+           
+header .scammers a:hover {
+text-decoration:none;
+color:black;
+}
+
+.scammers a {
+display:inline-block
+}
+           
+p { margin: 20;}
+          
+
+#nav_menu {
+height: 30px;
+margin: 0;
+padding-top: 0;
+padding-bottom: 23px;
+list-style: none;
+margin-top: 10px;
+}
+    
+    
+#nav_menu ul {
+position: relative; 
+list-style: none;
+display: flex;
+justify-content: space-around;
+background-color:  #fd5f60;
+position: relative;
+margin: 0;
+padding: 0;
+line-height: 12px;
+text-align: center;
+}
+      
+#nav_menu ul li {
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+border: solid #878382;
+border-width: 0 0 1px 0;
+flex-basis: 20%;
+}
+          
+#nav_menu ul li a {
+text-decoration: none;
+color: white;
+font-weight: bolder;
+text-align: center;
+padding: 1em 0;
+font-size: 20px;
+}
+          
+#nav_menu ul ul {
+display: none;
+position: absolute;
+top: 100%;
+width: 20%;
+line-height: 1;
+}
+          
+#nav_menu ul ul li {
+float: none;
+display: block;
+}
+          
+#nav_menu ul li a:hover {
+background: #a1a1a1;
+display: block;
+}
+           
+#nav_menu ul li:hover > ul {
+display: block;
+}
+          
+#nav_menu > ul ul::after {
+content: "";
+display: block;
+clear: both; 
+}
+             
+main {
+background-color: rgb(247, 247, 247);
+margin: 20px;
+padding-bottom: 0;
+}   
+ 
+#sec1 {
+grid-row: 1;
+grid-column: 1;
+margin: 0 10% 0 5%;
+}
+ 
+
+main h1 {
+text-align: center;
+}
+ 
+.box {
+font-size: 20px;
+border: 1px solid gray;
+margin-bottom: 10px;
+}
+ 
+.head_name {
+font-size: 25px;
+color: rgb(28, 28, 173);
+font-weight: bold;
+}
+     
+ .conteiner {
+height: 25px;
+width: 250px;
+margin: 10px 0 10px 0;
+}
+ 
+#education {
+margin-left: 253px;
+}
+      
+#f_name {
+margin-left: 248px;
+}
+#l_name {
+margin-left: 250px;
+}
+
+#ph_num {
+margin-left: 220px;
+}
+#e_mail {
+margin-left: 280px;
+}
+ 
+#about_you {
+margin-top: 20px;
+}
+ 
+ #citizen {
+     margin-left: 242px;
+ }
+
+#state {
+margin-left: 192px;
+ }
+
+ #age {
+margin-left: 231px;
+ }
+ 
+ .educ {
+width: 257px;
+height: 30px;
+margin: 10px 0 10px 0;
+}
+ 
+#experience {
+margin-left: 55px;
+}
+ 
+#en_language {
+margin-left: 20px;
+}
+ 
+#fr_language {
+margin-left: 24px;
+}
+ 
+.lang {
+width: 120px;
+height: 30px;
+margin: 10px 0 10px 0;
+}
+
+#status {
+margin-left: 220px;  
+} 
+
+.status {
+height: 30px;
+width: 257px;
+margin: 10px 0 10px 0;
+}
+ 
+#children {
+margin-left: 257px;  
+}
+ 
+#stat {
+height: 30px;
+margin: 10px 0 10px 0;
+}
+
+#submit {
+width: 150px;
+height: 25px;
+margin:  10px 0 10px  300px;
+background-color: #d4d0d0;
+}
+ 
+#reset {
+width: 150px;
+height: 25px;
+margin: 10px 0 10px 20px;
+background-color: #d4d0d0;
+}
+ 
+input:required, input[required] {
+border: 1px solid red;
+}
+ 
+textarea {
+width: 500px;
+height: 100px;
+background-color: rgb(247, 247, 247);
+}
+#flags {
+float: right;
+}
+ 
+#demo-nav {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+list-style-type: none;
+background-color: rgb(112, 110, 110);
+flex-basis: 25%;
+}
+            
+#demo-nav a {
+text-decoration: none;
+color: black;
+}
+          
+#demo-nav h3 a:hover {
+display: block;
+color: beige;
+}
+                        
+#demo-nav h3 {
+padding: 10px;
+text-align: center;
+} 
+
+footer {
+background: #d4d0d0;
+text-align: center;
+padding: 25px 0 25px;
+}
+ 
+.p2 {
+font-size: medium;
+} 
+}
